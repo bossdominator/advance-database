@@ -117,44 +117,19 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="home-4--home-house-roof-shelter" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\home-4--home-house-roof-shelter.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="336588207_5948824098549519_5881089794714069640_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\336588207_5948824098549519_5881089794714069640_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Money Icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Money Icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ID Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ID Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Deceased Icon 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Deceased Icon 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Grave Icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Grave Icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Deceased Icon 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Deceased Icon 3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="CND LOGO" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\CND LOGO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="home1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\home1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Money Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Money Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Grave Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Grave Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="home-4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\home-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="received_657408309257332" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\received_657408309257332.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnEmployee.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAR
+        QwAAEUMBZLAsnQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAHLSURBVFhH7dY7
+        SxxRGMbxQdEgaIwQQVGTSkgQjUZrwQsokkZR0wVExMoQjQh+AbGI90QFtchFUgRiaRS8lBYaq0AQP4z/
+        ZyZnGeeyOYWzu+A+8Js9u7Nw3tl9z5lx8snnXzrwAZ/wMWGaYwGdcDOI33iHUYwlTHNorgsMw7nEEw0y
+        nFpobudahyzlKnXIUv7qkLMFlEDdeoCvqEdUilCOh5YKYRJbQAF+YAttmIBWShWC6ccRDqFi45jzrTCJ
+        LUBfOvWGqaxiyhuG8gDFlvyJLUBXravyZxHT3vBWerAL/U1f0jDnG2ESW4D+pz2s4DlGoDWrtRtMJfSL
+        vbRUBpO0TajMwfRCtT6ISDO0s7215N/0YgtowDzW8BmbWEYfgmnBe0xaegqTyAIGoBOzeIVeaOJxnEGF
+        +fMY+hVeWCqFSagALbM/aHLfhaNu101ERZlo/B3f/kONqte0Tahm2/aGsXmDHW+YipaXNiQb/oQKmIGW
+        yjOoD4K0IrQp/YTJnW5E7TjBPn5F0OfHUDeb6Oor8MiS1VacqeRGAVl/INEWW6dBhlMD95FsCFrbaiwt
+        Qz00JklzaK5zvIabLuhut4H1hGmOJXQjn3sfx7kBzxKydKnqeq8AAAAASUVORK5CYII=
+</value>
   </data>
 </root>

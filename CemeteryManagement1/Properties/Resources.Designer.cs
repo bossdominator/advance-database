@@ -63,6 +63,16 @@ namespace CemeteryManagement1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _336588207_5948824098549519_5881089794714069640_n {
+            get {
+                object obj = ResourceManager.GetObject("336588207_5948824098549519_5881089794714069640_n", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap CND_LOGO {
             get {
                 object obj = ResourceManager.GetObject("CND LOGO", resourceCulture);
@@ -166,6 +176,16 @@ namespace CemeteryManagement1.Properties {
         internal static System.Drawing.Bitmap Money_Icon1 {
             get {
                 object obj = ResourceManager.GetObject("Money Icon1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap received_657408309257332 {
+            get {
+                object obj = ResourceManager.GetObject("received_657408309257332", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

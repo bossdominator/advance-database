@@ -38,12 +38,14 @@
             this.btnHome = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.btnEmployee = new System.Windows.Forms.Button();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.btnGrave = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
             this.btnDeceased = new System.Windows.Forms.Button();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.btnGrave = new System.Windows.Forms.Button();
             this.panel6 = new System.Windows.Forms.Panel();
             this.btnPayment = new System.Windows.Forms.Button();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.srvc = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.sidebarTimer = new System.Windows.Forms.Timer(this.components);
             this.panel7 = new System.Windows.Forms.Panel();
@@ -67,9 +69,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.menuButton)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
-            this.panel4.SuspendLayout();
             this.panel5.SuspendLayout();
+            this.panel4.SuspendLayout();
             this.panel6.SuspendLayout();
+            this.panel8.SuspendLayout();
             this.panel7.SuspendLayout();
             this.modifypanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -83,6 +86,7 @@
             this.sidebar.Controls.Add(this.panel1);
             this.sidebar.Controls.Add(this.panel3);
             this.sidebar.Controls.Add(this.panel5);
+            this.sidebar.Controls.Add(this.panel8);
             this.sidebar.Controls.Add(this.panel4);
             this.sidebar.Controls.Add(this.panel6);
             this.sidebar.Dock = System.Windows.Forms.DockStyle.Left;
@@ -175,31 +179,6 @@
             this.btnEmployee.UseVisualStyleBackColor = false;
             this.btnEmployee.Click += new System.EventHandler(this.btnEmployee_Click);
             // 
-            // panel4
-            // 
-            this.panel4.Controls.Add(this.btnGrave);
-            this.panel4.Location = new System.Drawing.Point(3, 268);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(337, 46);
-            this.panel4.TabIndex = 8;
-            // 
-            // btnGrave
-            // 
-            this.btnGrave.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.btnGrave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnGrave.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGrave.Image = global::CemeteryManagement1.Properties.Resources.Grave_Icon1;
-            this.btnGrave.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnGrave.Location = new System.Drawing.Point(-7, -14);
-            this.btnGrave.Name = "btnGrave";
-            this.btnGrave.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
-            this.btnGrave.Size = new System.Drawing.Size(354, 73);
-            this.btnGrave.TabIndex = 7;
-            this.btnGrave.Text = "          Grave Information";
-            this.btnGrave.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnGrave.UseVisualStyleBackColor = false;
-            this.btnGrave.Click += new System.EventHandler(this.btnGrave_Click);
-            // 
             // panel5
             // 
             this.panel5.Controls.Add(this.btnDeceased);
@@ -225,10 +204,35 @@
             this.btnDeceased.UseVisualStyleBackColor = false;
             this.btnDeceased.Click += new System.EventHandler(this.btnDeceased_Click);
             // 
+            // panel4
+            // 
+            this.panel4.Controls.Add(this.btnGrave);
+            this.panel4.Location = new System.Drawing.Point(3, 320);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(337, 46);
+            this.panel4.TabIndex = 8;
+            // 
+            // btnGrave
+            // 
+            this.btnGrave.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.btnGrave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnGrave.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGrave.Image = global::CemeteryManagement1.Properties.Resources.Grave_Icon1;
+            this.btnGrave.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnGrave.Location = new System.Drawing.Point(-7, -14);
+            this.btnGrave.Name = "btnGrave";
+            this.btnGrave.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.btnGrave.Size = new System.Drawing.Size(354, 73);
+            this.btnGrave.TabIndex = 7;
+            this.btnGrave.Text = "          Grave Information";
+            this.btnGrave.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnGrave.UseVisualStyleBackColor = false;
+            this.btnGrave.Click += new System.EventHandler(this.btnGrave_Click);
+            // 
             // panel6
             // 
             this.panel6.Controls.Add(this.btnPayment);
-            this.panel6.Location = new System.Drawing.Point(3, 320);
+            this.panel6.Location = new System.Drawing.Point(3, 372);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(337, 46);
             this.panel6.TabIndex = 8;
@@ -249,6 +253,24 @@
             this.btnPayment.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnPayment.UseVisualStyleBackColor = false;
             this.btnPayment.Click += new System.EventHandler(this.btnPayment_Click);
+            // 
+            // panel8
+            // 
+            this.panel8.Controls.Add(this.srvc);
+            this.panel8.Location = new System.Drawing.Point(3, 268);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(337, 46);
+            this.panel8.TabIndex = 15;
+            // 
+            // srvc
+            // 
+            this.srvc.Location = new System.Drawing.Point(0, 0);
+            this.srvc.Name = "srvc";
+            this.srvc.Size = new System.Drawing.Size(337, 46);
+            this.srvc.TabIndex = 13;
+            this.srvc.Text = "services";
+            this.srvc.UseVisualStyleBackColor = true;
+            this.srvc.Click += new System.EventHandler(this.srvc_Click);
             // 
             // label2
             // 
@@ -475,9 +497,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.menuButton)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
-            this.panel4.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
+            this.panel4.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
+            this.panel8.ResumeLayout(false);
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
             this.modifypanel.ResumeLayout(false);
@@ -510,7 +533,6 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnModGrave;
         private System.Windows.Forms.Button btnDelGrave;
-        private System.Windows.Forms.Button btnAddGrave;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.TextBox textBox1;
         private System.DirectoryServices.DirectorySearcher directorySearcher1;
@@ -522,5 +544,8 @@
         private System.Windows.Forms.Label grave_typelbl;
         private System.Windows.Forms.Label grave_namelbl;
         private System.Windows.Forms.ComboBox modify_combobox;
+        private System.Windows.Forms.Panel panel8;
+        private System.Windows.Forms.Button srvc;
+        private System.Windows.Forms.Button btnAddGrave;
     }
 }

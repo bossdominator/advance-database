@@ -45,6 +45,8 @@
             this.menuButton = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.sidebar = new System.Windows.Forms.FlowLayoutPanel();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.srvc = new System.Windows.Forms.Button();
             this.panel7 = new System.Windows.Forms.Panel();
             this.exitbtn = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
@@ -69,6 +71,7 @@
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.menuButton)).BeginInit();
             this.sidebar.SuspendLayout();
+            this.panel8.SuspendLayout();
             this.panel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -82,7 +85,7 @@
             // panel6
             // 
             this.panel6.Controls.Add(this.btnPayment);
-            this.panel6.Location = new System.Drawing.Point(3, 320);
+            this.panel6.Location = new System.Drawing.Point(3, 372);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(337, 46);
             this.panel6.TabIndex = 8;
@@ -132,7 +135,7 @@
             // panel4
             // 
             this.panel4.Controls.Add(this.btnGrave);
-            this.panel4.Location = new System.Drawing.Point(3, 268);
+            this.panel4.Location = new System.Drawing.Point(3, 320);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(337, 46);
             this.panel4.TabIndex = 8;
@@ -242,6 +245,7 @@
             this.sidebar.Controls.Add(this.panel1);
             this.sidebar.Controls.Add(this.panel3);
             this.sidebar.Controls.Add(this.panel5);
+            this.sidebar.Controls.Add(this.panel8);
             this.sidebar.Controls.Add(this.panel4);
             this.sidebar.Controls.Add(this.panel6);
             this.sidebar.Dock = System.Windows.Forms.DockStyle.Left;
@@ -252,6 +256,24 @@
             this.sidebar.Name = "sidebar";
             this.sidebar.Size = new System.Drawing.Size(346, 673);
             this.sidebar.TabIndex = 11;
+            // 
+            // panel8
+            // 
+            this.panel8.Controls.Add(this.srvc);
+            this.panel8.Location = new System.Drawing.Point(3, 268);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(337, 46);
+            this.panel8.TabIndex = 10;
+            // 
+            // srvc
+            // 
+            this.srvc.Location = new System.Drawing.Point(-2, 0);
+            this.srvc.Name = "srvc";
+            this.srvc.Size = new System.Drawing.Size(337, 46);
+            this.srvc.TabIndex = 13;
+            this.srvc.Text = "services";
+            this.srvc.UseVisualStyleBackColor = true;
+            this.srvc.Click += new System.EventHandler(this.srvc_Click);
             // 
             // panel7
             // 
@@ -475,6 +497,7 @@
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.menuButton)).EndInit();
             this.sidebar.ResumeLayout(false);
+            this.panel8.ResumeLayout(false);
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
@@ -515,5 +538,7 @@
         private System.Windows.Forms.Button btnAddEmp;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Panel panel8;
+        private System.Windows.Forms.Button srvc;
     }
 }

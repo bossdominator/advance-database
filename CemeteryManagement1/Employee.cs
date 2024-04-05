@@ -265,6 +265,13 @@ namespace CemeteryManagement1
         {
 
         }
+
+        private void srvc_Click(object sender, EventArgs e)
+        {
+            services f7 = new services();
+            f7.Show();
+            Visible = false;
+        }
     }
 }
 

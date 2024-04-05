@@ -130,6 +130,7 @@ namespace CemeteryManagement1
             // Create a new instance of the add_deceased form
             add_deceased addDeceasedForm = new add_deceased();
 
+
             // Show the new form
             addDeceasedForm.Show();
         }
@@ -138,5 +139,16 @@ namespace CemeteryManagement1
         {
         }
 
+        private void srvc_Click(object sender, EventArgs e)
+        {
+            services f7 = new services();
+            f7.Show();
+            Visible = false;
+        }
+
+        private void panel7_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

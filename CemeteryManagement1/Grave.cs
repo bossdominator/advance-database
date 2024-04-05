@@ -27,7 +27,7 @@ namespace CemeteryManagement1
             btnDeceased.BackColor = ColorTranslator.FromHtml("#e5c1b3");
             panel2.BackColor = ColorTranslator.FromHtml("#e5c1b3");
             this.BackColor = ColorTranslator.FromHtml("#f5fcf7");
-            btnAddGrave.BackColor = ColorTranslator.FromHtml("#c6d1b3");
+       //     btnAddGrave.BackColor = ColorTranslator.FromHtml("#c6d1b3");
             btnDelGrave.BackColor = ColorTranslator.FromHtml("#c6d1b3");
             btnModGrave.BackColor = ColorTranslator.FromHtml("#c6d1b3");
             dataGridView1.BackColor = ColorTranslator.FromHtml("#e1d6c3");
@@ -351,6 +351,16 @@ namespace CemeteryManagement1
                 grave_nametxtbox.Text = graveName;
             }
         }
+
+        private void srvc_Click(object sender, EventArgs e)
+        {
+            services f7 = new services();
+            f7.Show();
+            Visible = false;
+        }
+
+    
+
     }
 }
 

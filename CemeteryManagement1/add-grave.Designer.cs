@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.gravetypelbl = new System.Windows.Forms.Label();
             this.descriptionlbl = new System.Windows.Forms.Label();
             this.no_of_boneslbl = new System.Windows.Forms.Label();
@@ -40,6 +41,7 @@
             this.grave_nametxt = new System.Windows.Forms.TextBox();
             this.submitbtn = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.SuspendLayout();
             // 
             // gravetypelbl
@@ -178,6 +180,12 @@
             this.label5.TabIndex = 11;
             this.label5.Text = "+ Add New Grave";
             // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            // 
             // add_grave
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -219,5 +227,6 @@
         private System.Windows.Forms.TextBox grave_nametxt;
         private System.Windows.Forms.Button submitbtn;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
     }
 }

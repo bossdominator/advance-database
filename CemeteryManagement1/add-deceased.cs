@@ -61,11 +61,23 @@ namespace CemeteryManagement1
                     gendercmb.SelectedIndex = -1;
                     dateofbirthcl.Value = DateTime.Now;
                     dateofdeathcl.Value = DateTime.Now;
+
+                    // Prompt user if they want to proceed to services
+                    DialogResult result = MessageBox.Show("Do you want to proceed to services?", "Proceed to Services", MessageBoxButtons.YesNo);
+                    if (result == DialogResult.Yes)
+                    {
+                        services servicesForm = new services();
+                        servicesForm.ShowDialog(); // Show the services form as a dialog
+
+                        // Close the add_deceased form after services form is closed
+                        this.Close();
+                    }
                 }
                 else
                 {
                     MessageBox.Show("Failed to insert data.");
                 }
+
 
                 cnn.Close();
             }

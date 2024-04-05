@@ -161,6 +161,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="services.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="services.Designer.cs">
+      <DependentUpon>services.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="add-deceased.resx">
       <DependentUpon>add-deceased.cs</DependentUpon>
     </EmbeddedResource>
@@ -198,6 +204,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="services.resx">
+      <DependentUpon>services.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -244,6 +253,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\home-4--home-house-roof-shelter.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\336588207_5948824098549519_5881089794714069640_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\received_657408309257332.jpeg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

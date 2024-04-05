@@ -382,5 +382,24 @@ namespace CemeteryManagement1
         {
             LoadGraveData();
         }
+
+        private void srvc_Click(object sender, EventArgs e)
+        {
+            services f7 = new services();
+            f7.Show();
+            Visible = false;
+        }
+
+        private void panel7_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void srvc_Click_1(object sender, EventArgs e)
+        {
+            services f7 = new services();
+            f7.Show();
+            Visible = false;
+        }
     }
 }
